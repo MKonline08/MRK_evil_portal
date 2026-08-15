@@ -13,13 +13,6 @@ evil_portal/
 └── README.md       # This file
 ```
 
-## How It Works
-
-1. **MyPortal.php** extends `evilportal\Portal` (provided by the Pineapple framework)
-2. Evil Portal framework calls `handleAuthorization()` on GET → shows login page
-3. Evil Portal framework calls `onSuccess()` on POST → captures creds + whitelists MAC
-4. **helper.php** provides a JSON API to view/manage captured data
-5. **config.json** stores active profile and SSID settings
 
 ## Install
 
