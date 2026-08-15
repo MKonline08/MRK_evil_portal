@@ -59,18 +59,7 @@ cp /tmp/helper.php /root/pineapple/modules/EvilPortal/
 
 Done. Any device connecting to your AP will be redirected to the portal.
 
-## Features
 
-- **Universal Design** — Clean, modern look that works for any network type
-- **Device Detection** — Auto-detects iOS/Android/Windows/Mac/Linux and shows matching icon
-- **Fingerprinting** — Captures screen size, timezone, hardware cores, memory, touch points, plugins, language
-- **Dark Mode** — Respects system dark mode preference
-- **Mobile-First** — Full-screen on phones, card layout on desktop
-- **Back-Button Trap** — Prevents easy navigation away
-- **Form Validation** — Shake animation on empty submit, loading spinner on valid submit
-- **7 Profiles** — default, starbucks, xfinity, att, spectrum, hotel, airport (auto-detected from SSID)
-- **Self-Contained** — All CSS and JS are inline. Zero external files needed.
-- **Pineapple Native** — Uses `$this->authorizeClient()` to whitelist victim MAC addresses
 
 ## API
 
